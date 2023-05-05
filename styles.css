@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #2b2d42;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+header {
+  min-width: 100vw;
+  height: 4em;
+  background: #14213d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #fca31199 0 0 10px;
+  border-bottom: 1px solid #fca311;
+}
+
+h1, h2 {
+  color: #fca311;
+  text-shadow: #fca311 1px 0px 15px;
+}
+
+h1 {
+  margin-right: 20px;
+  font-size: 2em;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  color: #fca311;
+  font-size: 1em;
+  transition: 0.1s;
+}
+
+li button:hover {
+  text-shadow: #fca311 1px 0px 5px;
+  font-weight: 300;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+main {
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section {
+  border: 1px solid #fca311;
+  border-radius: 10px;
+  padding: 30px;
+  background: #14213d;
+  box-shadow: #fca311 0 0 10px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+.loteriaImg {
+  border-radius: 10px;
+  width: 350px;
+  height: 450px;
+}
+
+.buttons button {
+  padding: 10px;
+}
+
+footer {
+  background: #14213d;
+  min-width: 100vw;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fca311;
+  border-top: 1px solid #fca311;
+  box-shadow: #fca31199 0 0 10px;
+}
